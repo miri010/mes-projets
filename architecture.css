@@ -1,0 +1,233 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: font-family: "Times New Roman", Times, serif;
+
+
+  }
+.banner
+{
+	width:100%;
+	height:100vh;
+       background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)) ,url(https://media.giphy.com/media/1hoOIOfr7eG87gyiMx/giphy.gif);
+	background-size: cover;
+	background-position: center;
+ 
+ }
+
+
+
+
+
+.menu1{
+	width: 100%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+
+	
+
+}
+.fa-user-circle{
+color: white;
+margin-left: 300px;
+width: 200%px;
+
+
+
+ }
+
+ul li {
+list-style: none;
+display: inline-block;
+margin-left:62px ;
+margin-right:27px ;
+position: relative;
+font-size: 15px;
+
+ }
+
+
+ ul li a
+{
+text-decoration: none;
+color: white;
+letter-spacing: 5px;
+text-transform: uppercase;
+cursor: pointer;
+
+
+}
+
+
+
+.conteneur
+
+{
+width:100% ;
+position:absolute ;
+top: 50%;
+transform: translateY(-50%);
+text-align:center ;
+color: white;
+
+
+}
+
+
+
+.conteneur h1{
+
+
+	font-size: 70px;
+	margin-top: 20px ;
+	color: transparent;
+	-webkit-text-stroke: 1px white ;
+	background-image: url(back.png);
+	-webkit-background-clip: text;
+	background-position: 0 0 ;
+	animation: latransaction  20s linear infinite;
+
+
+}
+
+@keyframes latransaction{
+
+100%
+
+{ background-position: 2000px 0;
+
+       }
+
+
+	}
+
+
+
+button{
+	width:400PX;
+	padding: 20PX;
+	text-align: center;
+	margin: 20PX ;
+	border-radius: 100PX 100PX 100PX 100PX;
+	font-weight: bold;
+	font-family: serif;
+	font-size: 30px;
+	border: 2PX solid white ;
+	background: transparent;
+	color: white;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+
+
+
+}
+MAIN{
+	background-color: darkred;
+	height:100% ;
+	width: 0;
+	border-radius: 100PX ;
+	position: absolute;
+    left:0 ;
+    bottom: 0 ;
+    z-index: -1;
+    transition: 0.5S;
+
+}
+
+button:hover MAIN {
+width: 100%;
+
+}
+BUTTON:hover{
+	border: none;
+
+
+}
+.coco{
+	width:100%;
+	height:100vh;
+    background-image:url(images/pp,504x498-pad,600x600,f8f8f8.u2.jpeg);
+	background-size: cover;
+	background-position: center;
+ 
+ }
+ .form{
+	
+	width:80% ;
+	height: 72%;
+	
+      background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0, 0, 0, 0.8)50%);
+     position: absolute;
+    top: 200px;
+    left: 200px;
+    
+    border-radius: 10px;
+    padding: 25px;
+	
+}
+.form h2{
+
+	text-align: center;
+	font-family: italic;
+	background: white;
+	text-decoration: underline;
+	color: black;
+	font-weight: bolder;
+	border-radius: 100px;
+	padding: 10px;
+
+}
+.form-control{
+	width:800px ;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: white;
+	font-size:18px ;
+	margin-bottom: 16px;
+
+
+}
+input{
+	height: 45px;
+
+
+}
+.submit{
+	background: darkred;
+	border-color: transparent;
+	color: white;
+	font-size:20px;
+	font-weight:bold ;
+	letter-spacing: 2px;
+	height:50px ;
+	margin-top:20px ;
+
+
+
+
+}
+.submit:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+
+
+
+
+}
+.contact-form {
+	width: 300px;
+	margin-left: 120px;
+	margin-top: 30px;
+	
+
+
+}
+
+
+
